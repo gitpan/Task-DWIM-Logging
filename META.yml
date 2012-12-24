@@ -1,0 +1,34 @@
+---
+abstract: 'A Task module for DWIM Perl L<http://dwimperl.com/>'
+author:
+  - 'Gabor Szabo <szabgab@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  Perl::Version: 1.011
+  Test::More: 0.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-DWIM-Logging
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Log::Contextual: 0.004001
+  Log::Dispatch: 2.29
+  Log::Dispatch::Array: 1.001
+  Log::Dispatch::Configurator: 1.00
+  Log::Dispatchouli: 2.005
+  Log::Log4perl: 1.35
+  perl: 5.008
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/dwimperl/Task-DWIM
+version: 0.07
